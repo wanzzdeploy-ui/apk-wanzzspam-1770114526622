@@ -1,0 +1,2 @@
+rootProject.name = "wanzzspam"
+include ':app'
