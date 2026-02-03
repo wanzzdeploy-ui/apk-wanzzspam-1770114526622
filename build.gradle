@@ -1,0 +1,19 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Kita pakai AGP versi stabil 8.0.2
+        classpath 'com.android.tools.build:gradle:8.0.2'
+    }
+}
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
